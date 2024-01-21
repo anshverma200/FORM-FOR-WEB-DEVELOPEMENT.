@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#9d9ea8;  
+    min-height: 100vh;
+    position: fixed;
+
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.box{
+    width: 600px;
+    height: 550px;
+    padding: 20px ;
+    background: white;
+    margin-top: 120px;
+    margin-left: 500px;
+    border-radius: 10px;
+}
+.heading{
+    font-size: x-large;
+}
+.firstline{
+    display: flex;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.sername{
+    margin-left: 100px;
+    font-size: large;
+}
+.secline{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: large;
+}
+.formcontrol{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+#em{
+    width: 550px;
+    height: 50px;
+    word-wrap: normal;
+    
+    
+}
+.add{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: large;
+}
+.thirdline{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: large;
+}
+.fouthline{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: large;
+}
+.apply{
+    margin-left: 500px;
+    margin-top: 30px;
+    color: red;
+    margin-bottom: 100px;
+}
+.input{
+    height: 35px;
+    width: 200px;
+}
+.pin{
+    margin-left: 100px;
+}
+.upload{
+    margin-left: 100px;
+}
